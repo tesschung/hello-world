@@ -12,7 +12,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <title>정승원의 블로그</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
@@ -25,13 +25,68 @@
 </head>
 
 <body id="rootNode">
+  
   <br>
-  <h1>정승원</h1><br>
+  <h1>정승원의 블로그</h1><br>
 
-  <a href='http://naver.com' class="btn btn-success">네이버</a>
+  <a href='https://tess4moduly.tistory.com/' class="btn btn-info">티스토리</a>
   <a href='https://github.com/tesschung' class="btn btn-secondary">깃허브</a><br>
+<br>
+<div id="descriptionConcepts">
 
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="repository-tab" data-toggle="tab" href="#repository" role="tab" aria-controls="repository"
+        aria-selected="true">repository</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="branch-tab" data-toggle="tab" href="#branch" role="tab" aria-controls="branch"
+        aria-selected="false">branch</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="commit-tab" data-toggle="tab" href="#commit" role="tab" aria-controls="commit"
+        aria-selected="false">commit</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="repository" role="tabpanel" aria-labelledby="repository-tab">
+      <br>
+  프로젝트가 거주(live)할 수 있는 디렉토리나 저장 공간. 깃허브 사용자는 종종 “repo”로 줄여서 사용한다. <br>
+  당신의 컴퓨터 안의 로컬 폴더가 될 수도 있고, 깃허브나 다른 온라인 호스트의 저장 공간이 될 수도 있다.<br>
+  저장소 안에 코드 화일, 텍스트 화일, 이미지 화일을 저장하고, 이름붙일 수 있다.
+</div>
+    <div class="tab-pane fade" id="branch" role="tabpanel" aria-labelledby="branch-tab">
+      <br>
+      여러 명이 하나의 프로젝트에서 깃 없이 작업하는 것이 얼마나 혼란스러울 것인가? <br> 
+      일반적으로, 작업자들은 메인 프로젝트의 브랜치를 따와서(branch off), 자신이 변경하고 싶은 자신만의 버전을 만든다. <br>
+      작업을 끝낸 후, 프로젝트의 메인 디렉토리인 “master”에 브랜치를 다시 “Merge”한다.
+    </div>
+    <div class="tab-pane fade" id="commit" role="tabpanel" aria-labelledby="commit-tab">
+      <br>
+      깃에게 파워를 주는 명령이다. <br>
+      커밋하면, 그 시점의 당신의 저장소의 “스냅샷”을 찍어, 프로젝트를 이전의 어떠한 상태로든 재평가하거나 복원할 수 있는 체크포인트를 가질 수 있다.
+    </div>
+  </div>
+
+  <hr>
+
+
+</div>
+<br>
+
+<video autoplay muted width="250" src='https://play-tv.kakao.com/v/407926964'  type="video/mp4">
+</video>
+
+
+
+
+
+
+<br>
   <img src='https://raw.githubusercontent.com/tesschung/hello-world/master/git.png' class="d-block w-100" alt="...">
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
