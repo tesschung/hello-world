@@ -1,4 +1,20 @@
-# Repository/Branch/Commit
+### :star: github flow를 설명하는 아주 간단한 github.io 제작
+
+:one: repository/branch/commit 설명
+
+:two: github flow video autoplay
+
+
+
+:arrow_down:
+
+<a text-align="center" href= "https://tesschung.github.io/hello-world/">Github Flow 보러가기</a>
+
+
+
+---
+
+### :pencil: Repository/Branch/Commit
 
 
 > Repository
@@ -16,11 +32,3 @@
 > commit
 
 **커밋(Commit):** 깃에게 파워를 주는 명령이다. 커밋하면, 그 시점의 당신의 저장소의 “스냅샷”을 찍어, 프로젝트를 이전의 어떠한 상태로든 재평가하거나 복원할 수 있는 체크포인트를 가질 수 있다.
-
-
-<<<<<<< HEAD
-=======
-2020 04 06
-
-Readme change
->>>>>>> e6b2e18b438d8bec841ff8deb46f2a5982af53f2

@@ -8,7 +8,7 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap" rel="stylesheet">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,29 +21,37 @@
       width: 1000px;
       margin: 0 auto;
     }
+    #title {
+      font-family: 'Nanum Gothic Coding', monospace;
+      font-size: 50px;
+    }
   </style>
 </head>
 
 <body id="rootNode">
 
   <br>
-  <h1>정승원의 github.io</h1><br>
-
+  <h1 id="title">정승원의 github.io</h1><br>
+<span class="badge badge-danger">Python</span>
+<span class="badge badge-warning">JavaScripts</span>
+<span class="badge badge-secondary">Java</span>
+<span class="badge badge-success">Vue</span>
+<span class="badge badge-dark">Django</span>
   <br>
   <div id="descriptionConcepts">
 
 
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="repository-tab" data-toggle="tab" href="#repository" role="tab"
+        <a style="color:black" class="nav-link active" id="repository-tab" data-toggle="tab" href="#repository" role="tab"
           aria-controls="repository" aria-selected="true">repository</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="branch-tab" data-toggle="tab" href="#branch" role="tab" aria-controls="branch"
+        <a style="color:black" class="nav-link" id="branch-tab" data-toggle="tab" href="#branch" role="tab" aria-controls="branch"
           aria-selected="false">branch</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="commit-tab" data-toggle="tab" href="#commit" role="tab" aria-controls="commit"
+        <a style="color:black"  class="nav-link" id="commit-tab" data-toggle="tab" href="#commit" role="tab" aria-controls="commit"
           aria-selected="false">commit</a>
       </li>
     </ul>
@@ -73,14 +81,15 @@
   </div>
   <hr>
   <br>
-<h5>Github Flow</h5>
-  <video autoplay muted width="700" src='githubFlow.mp4' type="video/mp4">
+<a href='https://github.com/tesschung/hello-world/blob/master/githubFlow.mp4' class="btn btn-info">Github Flow</a><br>
+<br>  
+<video autoplay muted width="700" src='githubFlow.mp4' type="video/mp4">
   </video>
 
 
 <hr>
   <br>
-    <a href='https://github.com/tesschung' class="btn btn-secondary">깃허브</a><br>
+    <a href='https://github.com/tesschung' class="btn btn-info">Github</a><br>
   <img src='git.png' class="d-block w-100" alt="...">
 
 
