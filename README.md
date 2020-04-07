@@ -1,8 +1,8 @@
-### :star: github flow를 설명하는 아주 간단한 github.io 제작
+### :star: git flow를 설명하는 아주 간단한 github.io 제작
 
 :one: repository/branch/commit 설명
 
-:two: github flow video autoplay
+:two: git flow video autoplay
 
 
 
