@@ -8,7 +8,7 @@
 
 :arrow_down:
 
-<a text-align="center" href= "https://tesschung.github.io/hello-world/">Github Flow 보러가기</a>
+<a text-align="center" href= "https://tesschung.github.io/hello-world/">Git Flow 보러가기</a>
 
 
 
